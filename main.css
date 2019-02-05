@@ -1,0 +1,79 @@
+:root {
+    --main-green: #00ff00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.titleFont {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.newLine {
+    white-space: pre-line;
+    line-height: 2.0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: space-evenly;
+    padding: 14px;
+    background-color: black;
+}
+
+.navlink {
+    color: #b3b3b3;
+}
+
+
+#main {
+    flex: 1 1 auto;
+    background-color: black;
+    position: relative;
+    z-index: -1;
+    padding: 70px;
+    color: var(--main-green);
+}
+
+hr {
+    border-top: 2px dashed var(--main-green);
+    border-bottom: 2px dashed var(--main-green);
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#c8 {
+    text-align: center;
+}
+
+#go {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    color: var(--main-green);
+    background-color: black;
+    width: 100px;
+    font-size: 16px;
+}
