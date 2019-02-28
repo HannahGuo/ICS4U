@@ -1,5 +1,5 @@
 function loadM1(){
-    $("#main").load("pages/m1.html");
+    $("#main").load("pages/m0.html");
 };
 
 $(document).ready(function(){
@@ -12,7 +12,7 @@ $("#home").click(function () {
 });
 
 $("#m1").click(function () {
-    $("#main").load("pages/m1.html");
+    $("#main").load("pages/m0.html");
     return false;
 });
 
